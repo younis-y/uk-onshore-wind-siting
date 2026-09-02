@@ -1,0 +1,31 @@
+# Data — not committed, see data/README.md
+*.gpkg
+*.tif
+*.nc
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.geojson
+REPD_*.csv
+GB-SAC/
+GB-SPA/
+GB-RAMSAR/
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+
+# macOS
+.DS_Store

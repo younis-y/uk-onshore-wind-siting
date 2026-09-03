@@ -1,18 +1,21 @@
-# Where should onshore wind go in Great Britain, and does it pay?
+# Siting GB onshore wind: constraints, AHP weighting, then the money
 
-A screening-level siting assessment for GB onshore wind: hard environmental
-constraints are removed first, the remaining land is scored against five weighted
-criteria using the Analytic Hierarchy Process, and the surviving candidate zones
-are carried into an indicative LCOE and NPV calculation.
+A screening-level siting assessment that answers two different questions in
+sequence. Hard environmental constraints remove disqualified land, the remainder
+is scored against five criteria weighted by the Analytic Hierarchy Process, and
+the surviving candidate zones carry through to an indicative LCOE and NPV.
 
-The point of the exercise is that suitability and viability are different
-questions. A site can clear every planning constraint and still not pay, and the
-figures are laid out so the two screens can be read against each other.
+Keeping those questions separate is the design point: a site can clear every
+planning constraint and still not pay, so the figures are laid out to be read
+against each other rather than collapsed into one number.
 
-## The weighting, and its consistency check
+**The weighting is defensible, not asserted.** AHP is only as good as the
+consistency of the pairwise comparisons behind it, so the consistency ratio is
+computed and reported: **CR = 0.0081**, comfortably inside the conventional 0.10
+threshold. Wind resource (41.3%) and grid distance (25.7%) carry two thirds of
+the weight.
 
-AHP is only as good as the consistency of the pairwise comparisons behind it, so
-the consistency ratio is reported rather than assumed:
+## The weighting in full
 
 | Criterion | Weight |
 |---|---|
